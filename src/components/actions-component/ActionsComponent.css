@@ -1,0 +1,41 @@
+.actions {
+  padding: 2.5rem;
+  border-radius: 1.2rem;
+  border-top-right-radius: 5rem;
+  background-color: hsl(228, 56%, 26%);
+  width: 30%;
+}
+
+.logo {
+  margin-bottom: 1.5rem;
+}
+
+.action-bar {
+  display: flex;
+}
+
+.icon-container {
+  margin-right: 1rem;
+  background-color: hsl(229, 57%, 11%);
+  padding: 0.7rem;
+  display: flex;
+  align-items: center;
+  border-radius: 0.5rem;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.icon-container:hover {
+  background-color: hsl(228, 56%, 26%);
+}
+
+.icon-container:last-child {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 900px) {
+  .actions {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+}

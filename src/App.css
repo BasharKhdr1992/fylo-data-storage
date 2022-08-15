@@ -1,0 +1,30 @@
+.wrapper {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./images/bg-desktop.png");
+  background-repeat: no-repeat;
+  background-position: bottom -4rem left 0;
+  background-color: hsl(229, 57%, 11%);
+}
+
+.data-storage {
+  width: 90%;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 900px) {
+  .wrapper {
+    background-image: url("./images/bg-mobile.png");
+    background-position: bottom -10rem left 0;
+    background-size: 105%;
+  }
+
+  .data-storage {
+    flex-direction: column;
+  }
+}

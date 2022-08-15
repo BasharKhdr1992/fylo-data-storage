@@ -1,0 +1,32 @@
+.progress-bar-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  border-radius: 1.3rem;
+  height: 1.5rem;
+  margin-bottom: 0.7rem;
+  background-color: hsl(229, 57%, 11%);
+}
+
+.progress-bar {
+  display: flex;
+  justify-content: flex-end;
+  height: 1rem;
+  margin: 0 0.5%;
+  border-radius: inherit;
+  position: absolute;
+  align-items: center;
+  padding-right: 0.2rem;
+  background-image: linear-gradient(
+    to right,
+    hsl(6, 100%, 80%),
+    hsl(335, 100%, 65%)
+  );
+}
+
+.circle {
+  background-color: hsl(243, 100%, 93%);
+  width: 1rem;
+  height: 0.7rem;
+  border-radius: 50%;
+}
